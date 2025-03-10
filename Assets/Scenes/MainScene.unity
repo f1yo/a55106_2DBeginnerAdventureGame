@@ -2794,6 +2794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710501661}
   - component: {fileID: 710501660}
+  - component: {fileID: 710501662}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -2832,6 +2833,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710501662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710501659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9444e466570c39749ba67ee88602204d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1057770597
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,6 +3492,10 @@ PrefabInstance:
     - target: {fileID: 5113417050167846567, guid: 73d4bffd4bb93c34d81e9d41f00ce190, type: 3}
       propertyPath: m_SleepingMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855689547228262112, guid: 73d4bffd4bb93c34d81e9d41f00ce190, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7554096105499005210, guid: 73d4bffd4bb93c34d81e9d41f00ce190, type: 3}
       propertyPath: m_LocalPosition.x
